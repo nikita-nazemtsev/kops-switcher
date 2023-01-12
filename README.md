@@ -12,7 +12,7 @@ chmod +x /usr/local/bin/kopsswitch
 ```
 Add to your .bashrc ( or .zshrc, etc)
 ```sh
-export PATH=$PATH:~/.kops/bin
+export PATH=~/.kops/bin:$PATH
 source ~/.bashrc
 ```
 
